@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-image: url("../images/BG.png");
+  background-size: cover;
+}
+
+.logo {
+  margin-left: 175px;
+  margin-top: 75px;
+}
+
+.mainNav {
+  width: 380px;
+  margin-left: 175px;
+}
+
+.mainNav ul {
+  margin-top: 25px;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.mainNav ul li {
+  padding: 15px;
+  background-color: rgba(1, 3, 2, 0.5);
+}
+
+.mainNav ul li:first-child {
+  margin-bottom: 10px;
+}
+
+.mainNav ul a {
+  text-transform: uppercase;
+  display: block;
+  border: 2px solid;
+  -o-border-image: linear-gradient(to right, #ceaa50 0%, rgba(206, 170, 80, 0.1) 25%, rgba(255, 0, 0, 0) 50%, rgba(206, 170, 80, 0.1) 75%, #ceaa50 100%) 10;
+     border-image: -webkit-gradient(linear, left top, right top, from(#ceaa50), color-stop(25%, rgba(206, 170, 80, 0.1)), color-stop(50%, rgba(255, 0, 0, 0)), color-stop(75%, rgba(206, 170, 80, 0.1)), to(#ceaa50)) 10;
+     border-image: linear-gradient(to right, #ceaa50 0%, rgba(206, 170, 80, 0.1) 25%, rgba(255, 0, 0, 0) 50%, rgba(206, 170, 80, 0.1) 75%, #ceaa50 100%) 10;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 4px;
+  color: #ceaa50;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.mainNav ul a:hover {
+  background-color: #ceaa50;
+  color: #010302;
+}
+
+.imageWrapper {
+  float: left;
+  width: 400px;
+  color: #ceaa50;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 175px;
+  margin-top: 75px;
+  letter-spacing: 4px;
+}
+
+.imageWrapper span {
+  display: block;
+  padding: 15px;
+  background-color: rgba(1, 3, 2, 0.5);
+}
+
+.imageWrapper span .imageHeader {
+  display: block;
+  max-width: 366px;
+  min-height: 20px;
+  border: 2px solid #ceaa50;
+  padding: 15px 0px 15px 0px;
+}
+
+.imageWrapper .emblem {
+  position: relative;
+  top: -526px;
+  z-index: 1;
+}
+
+.imageWrapper .imageBox {
+  margin: 0;
+  margin-top: 50px;
+  padding: 15px;
+  height: 471px;
+  background-color: rgba(1, 3, 2, 0.5);
+}
+
+.imageWrapper .imageBox .characterImage {
+  max-width: 366px;
+  border: 2px solid #ceaa50;
+}
+
+.navWrapper {
+  width: 400px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navWrapper a {
+  color: #ceaa50;
+  float: left;
+  display: block;
+  border: 2px solid;
+  -o-border-image: linear-gradient(to right, #ceaa50 0%, rgba(206, 170, 80, 0.1) 25%, rgba(255, 0, 0, 0) 50%, rgba(206, 170, 80, 0.1) 75%, #ceaa50 100%) 10;
+     border-image: -webkit-gradient(linear, left top, right top, from(#ceaa50), color-stop(25%, rgba(206, 170, 80, 0.1)), color-stop(50%, rgba(255, 0, 0, 0)), color-stop(75%, rgba(206, 170, 80, 0.1)), to(#ceaa50)) 10;
+     border-image: linear-gradient(to right, #ceaa50 0%, rgba(206, 170, 80, 0.1) 25%, rgba(255, 0, 0, 0) 50%, rgba(206, 170, 80, 0.1) 75%, #ceaa50 100%) 10;
+  padding: 15px 25px;
+  text-decoration: none;
+  width: 100px;
+  font-size: 0.6em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.navWrapper a:hover {
+  background-color: #ceaa50;
+  color: #010302;
+}
+
+.navWrapper span {
+  margin: 0 16px;
+}
+
+.articleWrapper {
+  float: right;
+  position: absolute;
+  right: 140px;
+  height: 100vh;
+  width: 970px;
+  overflow-y: scroll;
+}
+
+.articleWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.articleWrapper .textBox {
+  background-color: rgba(1, 3, 2, 0.5);
+  max-width: 866px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #ceaa50;
+  outline: 15px solid rgba(1, 3, 2, 0.5);
+  margin-top: 40px;
+}
+
+.articleWrapper .textBox:first-child {
+  margin-top: 90px;
+}
+
+.articleWrapper .textBox:last-child {
+  margin-bottom: 140px;
+}
+
+.articleWrapper .mainTextHeader {
+  color: #ceaa50;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.5em;
+  margin: 30px 60px 30px 60px;
+}
+
+.articleWrapper article {
+  letter-spacing: 3.5px;
+  color: #F1F0EC;
+  padding: 0px 60px 30px 60px;
+  font-size: 1.05em;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.articleWrapper .secondaryTextHeader {
+  color: #F1F0EC;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0px 60px 20px 60px;
+}
+
+.articleWrapper .dots {
+  margin-left: 60px;
+  margin-bottom: 5px;
+}
+
+.articleWrapper .symbol {
+  margin-top: -180px;
+  position: relative;
+  top: 110px;
+  left: -51px;
+  z-index: 10;
+}
+
+.articleWrapper .symbol + .mainTextHeader {
+  margin: 10px 60px 30px 60px;
+}
+/*# sourceMappingURL=styles.css.map */
